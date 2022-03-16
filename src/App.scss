@@ -1,0 +1,23 @@
+.container{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    @media screen and (max-width: 1024px) {
+        width: 60%;
+    }
+    @media screen and (max-width: 912px) {
+        width: 80%;
+    }
+    @media screen and (max-width: 540px) {
+        width: 90%;
+    }
+    @media screen and (max-width: 414px) {
+        width: 95%;
+    }
+    h1{
+        font-size: 30px;
+        color: rgb(71, 71, 71);
+    }
+}
